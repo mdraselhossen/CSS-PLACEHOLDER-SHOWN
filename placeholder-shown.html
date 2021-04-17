@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css placholder shown</title>
+    <style>
+        h2{
+            text-align: center;
+            background-color: green;
+            color: white;
+        }
+        input{
+            margin-left: 500px;
+            margin-top: 10px;
+            padding: 10px;
+             }
+         input[type="email"]:placeholder-shown{
+             border: 3px solid red;
+             border-radius: 10px;
+             background: blue;
+         }   
+         input[type="text"]:placeholder-shown{
+             border: 3px solid red;
+             border-radius: 10px;
+             background: green;
+         }   
+    </style>
+</head>
+<body>
+    <h2>html and css form</h2>
+    <form action="">
+        <input type="text" placeholder="Enter Your Name"><br><br>
+        <input type="email" placeholder="Enter Your Email "><br><br>
+        <input type="password" placeholder="Enter Your Password"><br><br>
+        <input type="tel" placeholder="Enter Your Number">
+    </form>
+    
+</body>
+</html>
